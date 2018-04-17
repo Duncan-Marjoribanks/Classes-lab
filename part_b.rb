@@ -2,7 +2,7 @@ class Team
 
   # attr_reader(:name, :players, :coach)
   # attr_writer(:name, :players, :coach)
-  attr_accessor(:name, :players, :coach)
+  attr_accessor(:name, :players, :coach, :points)
 
   def initialize(name, players, coach)
     @name = name
